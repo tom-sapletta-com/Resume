@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Resume\\' => array($baseDir . '/src'),
     'Phunc\\' => array($vendorDir . '/tom-sapletta-com/phunc/src'),
     'Config\\' => array($vendorDir . '/tom-sapletta-com/phunc/config'),
-    'App\\' => array($baseDir . '/src'),
 );

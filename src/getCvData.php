@@ -6,9 +6,8 @@
  * Date: 17.10.2016
  * Time: 18:43
  */
-namespace App;
+namespace Resume;
 
-use Phunc\HasString;
 use Phunc\IsLocalhost;
 use Phunc\addDebugError;
 use Phunc\getPathToDownloadedFile;

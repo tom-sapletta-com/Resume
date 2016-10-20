@@ -11,6 +11,10 @@ class ComposerStaticInit1d750299f4398c3ead955368283f7bec
     );
 
     public static $prefixLengthsPsr4 = array (
+        'R' => 
+        array (
+            'Resume\\' => 7,
+        ),
         'P' => 
         array (
             'Phunc\\' => 6,
@@ -19,13 +23,13 @@ class ComposerStaticInit1d750299f4398c3ead955368283f7bec
         array (
             'Config\\' => 7,
         ),
-        'A' => 
-        array (
-            'App\\' => 4,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Resume\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Phunc\\' => 
         array (
             0 => __DIR__ . '/..' . '/tom-sapletta-com/phunc/src',
@@ -33,10 +37,6 @@ class ComposerStaticInit1d750299f4398c3ead955368283f7bec
         'Config\\' => 
         array (
             0 => __DIR__ . '/..' . '/tom-sapletta-com/phunc/config',
-        ),
-        'App\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

@@ -1,16 +1,13 @@
 <?php
-//global $config;
 
-//use phunc\core;
-//use phunc\cv;
-use App\getConfigValue;
-use App\getHomePath;
+use Resume\getConfigValue;
+use Resume\getHomePath;
 
 $menu_html = '';
 $languages = new getConfigValue('languages');
 foreach($languages->value() as $lang) {
-    $menu_html .= '<a href="http://';
-    $menu_html .= new getHomePath();
+    $menu_html .= '<a href="';
+    $menu_html .= (string) new getHomePath();
     $menu_html .= '/cv.php?lang=';
     $menu_html .= strtolower($lang);
     $menu_html .= '">';

@@ -13,11 +13,10 @@
 
 //$config_data = Spyc::YAMLLoad($config_file);
 
-namespace App;
+namespace Resume;
 
 use Phunc\UserLanguage;
 use Phunc\docTreeRender;
-use App\getCvData;
 
 /**
  * Class Cv

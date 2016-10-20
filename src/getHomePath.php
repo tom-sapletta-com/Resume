@@ -6,7 +6,7 @@
  * Date: 15.10.2016
  * Time: 07:23
  */
-namespace App;
+namespace Resume;
 
 use Phunc\HasString;
 use Phunc\ValueText;
