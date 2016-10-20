@@ -1,0 +1,26 @@
+{
+    "name": "tom-sapletta-com/resume",
+    "description": "Implementation of document, resume, based on Phunc",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["functional programming","strong typing"],
+    "homepage": "http://phunc.de",
+    "authors": [
+        {
+            "name": "Tomasz Sapletta",
+            "email": "tom@sapletta.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "mustangostang/spyc": "^0.5.1",
+        "tom-sapletta-com/phunc": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+
+}

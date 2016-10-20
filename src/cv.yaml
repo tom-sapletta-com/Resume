@@ -1,0 +1,575 @@
+type: document
+language: EN
+coding: UTF-8
+items:
+  -
+    type: maintitle
+    name:
+      en: Curriculum Vitae
+      de: Lebenslauf
+      pl: Życiorys
+  -
+    type: section
+    name:
+      en: Personal details
+      de: Persönliche Daten
+      pl: Dane Personalne
+  -
+    type: image
+    name: Tomasz Sapletta    
+    value: http://cv.tom.sapletta.com/ts_2013.jpg
+  -
+    type: row50
+    value: Tomasz Sapletta
+    name:
+      en: Name
+      de: Name
+      pl: Imię i Nazwisko
+  -
+    type: row50 base64
+    value:
+      en: 1981 in Poland, Wejherowo
+      de: 1981 in Polen, Wejherowo
+      pl: 1981 w Polsce, Wejherowo
+    name:
+      en: Date and place of birth
+      de: Geburtsdatum und -ort
+      pl: Data i miejsce urodzenia
+  -
+#  Familienstand: ledig
+    type: row50
+    value:
+      en: Polish
+      de: Polnisch
+      pl: Polska
+    name:
+      en: Nationality
+      de: Nationalität
+      pl: Narodowość
+  -
+    type: row50 base64
+    validate: phone
+    value: +49 1577 1570 079
+    name:
+      en: Phone
+      de: Handy
+      pl: Tel
+  -
+    type: row50 base64
+    validate: email
+    name: E-mail
+    value:
+      pl: tomasz@sapletta.pl
+      en: tom@sapletta.com
+      de: tom@sapletta.de
+#  -
+#    type: row50 base64
+#    validate: skype
+#    name: Skype
+#    value:
+#      pl: tom.sapletta.com
+#      en: tom.sapletta.com
+#      de: tom.sapletta.com
+  -
+    type: row50 url homepage
+    validate: website
+    name: Website
+    value:
+      pl: tom.sapletta.com
+      en: tom.sapletta.com
+      de: tom.sapletta.com
+  -
+    type: row50 url github
+    validate: website
+    name: GitHub
+    value:
+      pl: github.com/tom-sapletta-com
+      en: github.com/tom-sapletta-com
+      de: github.com/tom-sapletta-com
+  -
+    type: row50 url linkedin
+    validate: website
+    name: Linkedin
+    value: linkedin.com/in/tomasz-sapletta-68045726
+  -
+    type: row50 url xing
+    validate: website
+    name: Xing
+    value: xing.com/profile/Tomasz_Sapletta
+  -
+    type: row50 url twitter
+    validate: website
+    name: Twitter
+    value:
+      pl: twitter.com/tsapletta
+      en: twitter.com/tsapletta
+      de: twitter.com/tsapletta      
+  -
+    type: section
+    name:
+      en: Education
+      de: Ausbildung
+      pl: Edukacja
+  -
+    type: row
+    values:
+      qualification:
+        en: Electrical Engineering
+        de: Elektroingenieur
+        pl: Inżynier Elektryk
+      date: 10.2008 – 09.2014
+      school:
+        en: "Speciality Information Technologies and System Control,<br/> Electrical Engineering Faculty, <br/> Department of Transport and Electrical Engineering, <br/> University of Technologies and Humanities in Radom, <br/> Thesis: Recognition of objects in video quality control systems."
+        #de: "Technologish-Humanistische Universität in Radom<br/> an der Fakultät für Transport und Elektrotechnik, <br/>Fachrichtung: Elektrotechnik, <br/>Fachgebiet: Informatik und Steuerungssysteme, <br/>Thema der Diplom: Erkennung von Objekten in Video-Qualitätskontrollsysteme."
+        de: "Ing. - Informatik  Und Steuerungssysteme,<br/> Technologisch-Humanistische Universität, Radom, Polen"
+        pl: "Uniwersytet Technologiczno-Humanistyczny, <br/>wydział: Transport i Elektrotechnika, <br/>kierunek: Elektrotechnika, <br/> specjalność: Informatyka i Systemy Sterowania, <br/> Temat pracy dypl.: Rozpoznawanie obiektów w wizyjnych systemach kontroli jakości."
+  -
+    type: row
+    values:
+      qualification:
+        en: Electrician Technician
+        de: Techniker Elektriker
+        pl: Technik Elektryk
+      date: 09.1999 - 06.2002
+      school:
+        en: "Specializing in Electric Power, <br/> Electrician Technician, Electric Technical College of Wejherowo, <br/> Thesis: PLC, build a device and programming"
+        #de: "Technische Fachschule Wejherowo, <br/> Oberschule,  Techniker der Energetik, <br/> Thema der Diplom: Die SPS, Design und Programmierung"
+        de: "Diplom Als Techniker/ Elektriker - Technik Und Energetik,<br/> Technische Fachhochschule, Wejherowo, Polen"
+        pl: "Zespół Szkół Elektrycznych w Wejherowie, <br/> Technik Elektryk o specjalności elektroenergetyka, <br/> Temat pracy dyplomowej: Sterownik programowalny, budowa i programowanie"
+  -
+    type: row
+    values:
+      qualification:
+        en: Electrician
+        de: Elektromonteur
+        pl: Elektromonter
+      date: 09.1996 – 06.1999
+      school:
+        en: Electrician, Electric Technical College of Wejherowo.
+        de: Berufsschule, Wejherowo
+        pl: Zespół Szkół Elektrycznych w Wejherowie
+
+  -
+    type: section
+    name:
+      en: Professional experience
+      de: Arbeitserfahrung
+      pl: Doświadczenie zawodowe
+
+  -
+    type: row
+    values:
+      # MEHRKANAL, Software Development
+      date: 08.2015 - 09.2016
+
+      position:
+        en: Software Developer
+        de: Software Developer
+        pl: Software Developer
+      company:
+        en: "MEHRKANAL GMBH", Essen, Germany
+        de: "MEHRKANAL GMBH", Essen
+        pl: "MEHRKANAL GMBH", Essen, Niemcy
+
+      projects:
+        en: Project &rsaquo; The Marketing Management System
+        de: Project &rsaquo; Marketing-Management-System
+        pl: Projekt &rsaquo; Wielomodułowy system do zarządzania kanałami marketingu
+      technologie:
+        en: "Technologies &rsaquo; PHP5, MySQL, Zend, HTML5, JS, JQuery, CSS, Composer, Unittest"
+        de: "Technologie &rsaquo; PHP5, MySQL, Zend, HTML5, JS, JQuery, CSS, Composer, Unittest"
+        pl: "Technologie &rsaquo; PHP5, MySQL, Zend, HTML5, JS, JQuery, CSS, Composer, Unittest"
+      responsibilities:
+        en: Development of Main Project, creating new solutions, optimisation, refactoring, testing, creating new solutions.
+        de: Weiterentwicklung und Optimierung des PHP-basierten Application-Frameworks, Entwicklung des Module, die Verantwortung für die technische Umsetzung von Projekten.
+        pl: Rozwój projektu, tworzenie nowych rozwiązań, optymalizacja, refaktoryzacja, testowanie i usuwanie usterek. Szkolenia wewnętrzne. 
+  -
+    type: row
+    values:
+      # Altran, Hamburg Programmer
+      date: 07.2015 - 08.2015
+
+      position:
+        en: Software Developer
+        de: SoftwareEntwickler
+        pl: Software Developer
+      company:
+        en: "Altran", Hamburg, Germany
+        de: "Altran", Hamburg
+        pl: "Altran", Hamburg, Niemcy
+
+      projects:
+        en: Project &rsaquo; Message Queuing in asynchronous communication in air transport.
+        de: Projekt &rsaquo; Modul auf das Flugzeug Messenger mit der asynchronen Kommunikation.
+        pl: Projekt &rsaquo; Moduł kolejkowania wiadomości w asynchronicznej komunikacji w transporcie lotniczym.
+      technologie:
+        en: "Technologies &rsaquo; Javascript, NodeJS, Redis, RESTful"
+        de: "Technologie &rsaquo; Javascript, NodeJS, Redis, RESTful"
+        pl: "Technologie &rsaquo; Javascript, NodeJS, Redis, RESTful"
+      responsibilities:
+        en: Module Development, integration of services, creating new solutions.
+        de: Entwicklung des Projekts, Die Verantwortung für die technische Umsetzung von Projekten.
+        pl: Tworzenie nowego modułu aplikacji, optymalizacja, testowanie i usuwanie usterek. 
+  -  
+    type: row
+    values:
+      # Altran, Consultant
+      date: 06.2015 - 03.2016
+
+      position:
+        en: Consultant
+        de: Consultant
+        pl: Konsultant
+      company:
+        en: "Altran Deutschland S.A.S. & Co. KG", Düsseldorf, Germany
+        de: "Altran Deutschland S.A.S. & Co. KG", Düsseldorf
+        pl: "Altran Deutschland S.A.S. & Co. KG", Düsseldorf, Niemcy
+      responsibilities:
+        en: Development of internal and external projects.
+        de: Entwicklung von internen und externen Projekten.
+        pl: Rozwój projektów informatycznych wewnętrznych i dla klientów zewnętrznych.
+  -
+    type: row
+    values:
+      # Software & Hardware Developer          
+      date: 09.2014 - 05.2015
+      position:
+        en: Software & Hardware Developer
+        de: Software- und Hardware- Entwickler
+        pl: Software & Hardware Developer
+      company:
+        en: "Freelance", Düsseldorf, Germany
+        de: "FREIBERUFLICH", Düsseldorf
+        pl: "Freelance", Düsseldorf, Niemcy
+
+      projects:
+        en: Project &rsaquo; The scanner of documents by electronic verification of drivers license
+        de: Project &rsaquo; Portabler Scanner für Ausweise
+        pl: Projekt &rsaquo; Przenośny skaner dokumentów
+      technologie:
+        en: "Technologies &rsaquo; NVR, Ajax, CSS, Embedded Linux, HTML5, PHP, Python, Responsive Design, Image Processing, Javascript, JQuery, JSON, Logo Design, MATLAB, MySQL, RESTful, Symfony, Webdesign, Webtrends, XML, YAML"
+        de: "Technologie &rsaquo; NVR, Ajax, CSS, Embedded Linux, HTML5, PHP, Python, Responsive Design, Image Processing, Javascript, JQuery, JSON, Logo Design, MATLAB, MySQL, RESTful, Symfony, Webdesign, Webtrends, XML, YAML"
+        pl: "Technologie &rsaquo; NVR, Ajax, CSS, Embedded Linux, HTML5, PHP, Python, Responsive Design, Image Processing, Javascript, JQuery, JSON, Logo Design, MATLAB, MySQL, RESTful, Symfony, Webdesign, Webtrends, XML, YAML"
+      responsibilities:
+        en: Creating new solutions for embedded hardware and software, equipment design and software architecture, CV-Manager, creation of system rendering from YAML to HTML, Management of servers with a network services and internet domains
+        de: Geräte-Design und Software-Architektur, Bildverarbeitung, Erkennung von Objekten, Installation und Konfiguration von CCTV-System mit LAN Netzwerk, der Kameras und des Videorecorders, Weiterentwicklung des Websiten, Die Server und die Netzdienste leiten. Handel mit den Internetdomain
+        pl: Tworzenie urządzenia i oprogramowania, refaktoryzacja, integracja usług.
+  -
+    type: row
+    values:
+      # "Hiepler + Partner GmbH"
+      date: 04.2014 - 08.2014
+
+      position:
+        en: Java Programmer
+        de: JAVA-Entwickler
+        pl: Programista Java
+      company:
+        en: "Hiepler + Partner GmbH", Kaarst, Germany
+        de: "Hiepler + Partner GmbH", Kaarst
+        pl: "Hiepler + Partner GmbH", Kaarst, Niemcy
+
+      projects:
+        en: Project &rsaquo; License control - electronic verification of drivers license
+        de: Projekt &rsaquo; Führerscheinkontrolle - elektronische Echtheitsprüfung des Führerscheins
+        pl: Projekt &rsaquo; Kontrola licencji - elektroniczna weryfikacja prawa jazdy
+      technologie:
+        en: "Technologies &rsaquo; Java, PHP, Hibernate, Spring, JasperReports, Vaadin, Vaadin Touchkit, Ext JS, Sencha Touch, JQuery Mobile, Netbeans, REST, SOAP, SOAP-UI, JBOSS, Apache, Tomcat, MSSQL, Oracle, Subversion"
+        de: "Technologie &rsaquo; Java, PHP, Hibernate, Spring, JasperReports, Vaadin, Vaadin Touchkit, Ext JS, Sencha Touch, JQuery Mobile, Netbeans, REST, SOAP, SOAP-UI, JBOSS, Apache, Tomcat, MSSQL, Oracle, Subversion"
+        pl: "Technologie &rsaquo; Java, PHP, Hibernate, Spring, JasperReports, Vaadin, Vaadin Touchkit, Ext JS, Sencha Touch, JQuery Mobile, Netbeans, REST, SOAP, SOAP-UI, JBOSS, Apache, Tomcat, MSSQL, Oracle, Subversion"
+      responsibilities:
+        en: Development of Main Project and others.<br/>Refactoring, integration of services, creating new solutions.
+        de: Anwendungsentwicklung und Prüfungen von Dienstleistungen, Web-Applikation für Verwaltung von Dokumenten, Mobil Anwendung für Bearbeiten von Benutzerdaten, Dienstleistungen Synchronisation und Integration, Server Administration des lokalen Servers und per Fernsteuerung
+        pl: Rozwój projektu głównego<br/>Refaktoryzacja, integracja usług, tworzenie nowych rozwiązań.
+  -  
+    type: row
+    values:
+      # "EG-Complex Sp. z o.o."
+      date: 11.2013 - 03.2014
+
+      position:
+        en: Java Programmer
+        de: Softwareentwickler
+        pl: Programista Java
+      company:
+        en: "EG-Complex Sp. z o.o."  Gdynia, Poland,  Software Developer,  Remote from Germany
+        de: "EG-Complex Sp. z o.o."  Gdingen, Polen,  Softwareentwickler,  Telearbeit
+        pl: "EG-Complex Sp. z o.o."  Gdynia,  Programista, Praca zdalna z Niemiec
+
+      projects:
+        en: Designing and creating services for GUI in CMS
+        de: Softwarearchitektur von Dienstleistungen und GUI
+        pl: Projekt aplikacji do tworzenia raportów w firmie z GUI w istniejącym CMS
+      technologie:
+        en: "Technologie &rsaquo; Apache, CSS, Ext JS, HTML5, Java, Javascript, JQuery, JSON, Maven, MySQL, PHP, REST, Spring, SVN, Tomcat, Webdesign"
+        de: "Technologie &rsaquo; Apache, CSS, Ext JS, HTML5, Java, Javascript, JQuery, JSON, Maven, MySQL, PHP, REST, Spring, SVN, Tomcat, Webdesign"
+        pl: "Technologie &rsaquo; Apache, CSS, Ext JS, HTML5, Java, Javascript, JQuery, JSON, Maven, MySQL, PHP, REST, Spring, SVN, Tomcat, Webdesign"
+      responsibilities:
+        en: Designing and creating services for GUI in CMS, Implementation and testing, compilation of periodic reports
+        de: Systementwicklung und Prüfungen
+        pl: Implementacja systemu, testowanie, integrowanie z istniejącym oprogramowaniem
+  -
+    type: row
+    values:
+      # url: http://www.clever-zoeger.de
+      date: 02.2013 - 11.2013
+
+      position:
+        en: PHP Programmer
+        de: PHP-Entwickler
+        pl: Programista PHP
+      company:
+        en: "Clever & Zoger GmbH", Unterumbach, Germany
+        de: "Clever & Zoger GmbH", Unterumbach, Deutschland
+        pl: "Clever & Zoger GmbH", Unterumbach, Niemcy
+
+      projects:
+        en: Project &rsaquo; Magento shops, Magento modules
+        de: Projekte &rsaquo; Magento Shops, Magento Module
+        pl: Projekty &rsaquo; Sklepy Magento, Moduły oparte o Magento
+      technologie:
+        en: "Technologies &rsaquo; PHP, Zend, MySQL, Javascript, JQuery, Prototype, SVN, HTML, XML, SVN"
+        de: "Technologie &rsaquo; PHP, Zend, MySQL, Javascript, JQuery, Prototype, SVN, HTML, XML, SVN"
+        pl: "Technologie &rsaquo; PHP, Zend, MySQL, Javascript, JQuery, Prototype, SVN, HTML, XML, SVN"
+      responsibilities:
+        en: Development of Magento shop. Implementing, refactoring, integration of services, creating extensions and layouts.
+        de: Optimierung und Konfiguration Webseiten auf dem Server, Weiterentwicklung des Magento Shops und Magento Moduls, Erstellen von Layouts und Erweiterungen
+        pl: Tworzenie i rozwój modułów magento, aplikacji i sklepów internetowych.
+  -
+    type: row
+    values:
+      # url: http://www.madkom.pl/
+      date: 08.2012 - 11.2012
+
+      position:
+        en: PHP Programmer
+        de: PHP-Entwickler
+        pl: Programista PHP
+      company:
+        en: "MADKOM S.A.", Gdynia, Poland
+        de: "MADKOM S.A." , Gdingen, Polen
+        pl: "MADKOM S.A.", Gdynia
+
+      projects:
+        en: Project &rsaquo; SIDAS - document circulation system
+        de: Projekt &rsaquo; SIDAS - Dokumentenkreislauf -System
+        pl: Projekt &rsaquo; SIDAS - system obiegu dokumentów
+      technologie:
+        en: "Technologies &rsaquo; PHP, JS; Prototype, extJS, jQuery; Xml, MySQL, Oracle, PostgreSQL; SVN;"
+        de: "Technologie &rsaquo; PHP, JS; Prototype, extJS, jQuery; Xml, MySQL, Oracle, PostgreSQL; SVN;"
+        pl: "Technologie &rsaquo; PHP, JS; Prototype, extJS, jQuery; Xml, MySQL, Oracle, PostgreSQL; SVN;"
+      responsibilities:
+        en: Creating new functionalities and refactoring existing.
+        de: Integration und Erweiterung der Systeme, Erstellen und Refactoring des Codes.
+        pl: Refaktoryzacja, naprawa i tworzenie nowych rozwiązań
+  -
+    type: row
+    values:
+      # image: history/11-12-2013/image/izlab.png
+      # url: http://www.izlab.com/
+      date: 02.2012 – 05.2012
+
+      position:
+        en: PHP Programmer
+        de: PHP-Entwickler
+        pl: Programista PHP
+      company:
+        en: "IZLAB.COM Sp. z o.o", Gdynia, Poland
+        de: "IZLAB.COM Sp. z o.o" , Gdingen, Polen
+        pl: "IZLAB.COM Sp. z o.o", Gdynia
+
+      projects:
+        en: Project &rsaquo; Own mangament system
+        de: Projekt &rsaquo; Eigene mangament-System
+        pl: Projekt &rsaquo; Autorski system zarządzania klientami
+      technologie:
+        en: "Technologies &rsaquo; PHP, Cakep PHP, MySQL, PHP Mailer, Javascript, JQuery, HTML, CSS"
+        de: "Technologie &rsaquo; PHP, Cakep PHP, MySQL, PHP Mailer, Javascript, JQuery, HTML, CSS"
+        pl: "Technologie &rsaquo; PHP, Cakep PHP, MySQL, PHP Mailer, Javascript, JQuery, HTML, CSS"
+      responsibilities:
+        en: Creating a Web application, integration of services.
+        de: Integration und Erweiterung der Systeme auf vTiger, Joomla, Wordpress
+        pl: Integracja komercyjnego systemu do zarządzania klientami w oparciu o vTiger, Joomla, Wordpress
+  -
+    type: row
+    values:
+#      url: http://ifresearch.pl/
+      date: 08.2011 - 01.2012
+
+      position:
+        en: Junior PHP Programmer
+        de: Junior PHP-Entwickler
+        pl: Programista PHP Junior
+
+      company:
+        en: "IF Research Polska Sp. z o.o.", Gdansk, Poland
+        de: "IF Research Polska Sp. z o.o.", Danzig, Polen
+        pl: "IF Research Polska Sp. z o.o.", Gdańsk
+
+      projects:
+        en: Project &rsaquo; Atrium - system for management and conference services
+        de: Projekt &rsaquo; Atrium - System für die Verwaltung und Konferenzdienstleistungen
+        pl: Projekt &rsaquo; Atrium - system do zarządzania i obsługi konferencji
+      technologie:
+        en: "Technologies &rsaquo; PHP, Zend, Ajax, Javascript, JQuery, HTML, CSS, MySql, SQLite, SVN"
+        de: "Technologie &rsaquo; PHP, Zend, Ajax, Javascript, JQuery, HTML, CSS, MySql, SQLite, SVN"
+        pl: "Technologie &rsaquo; PHP, Zend, Ajax, Javascript, JQuery, HTML, CSS, MySql, SQLite, SVN"
+      responsibilities:
+        en: "Creating new functionalities and refactoring existing, optimization scripts."
+        de: "Erstellen einer Web-Anwendung, Software-Entwicklung und Optimierung."
+        pl: "Rozwój i refaktoryzacja autorskiego systemu opartego na frameworku Zend."
+  -
+    type: row
+    values:
+      date: 09.2008 - 06.2011
+
+      position:
+        en: Owner
+        de: "Inhaber, Programmer, Elektronik, Elektriker"
+        pl: "Właściciel, Programista, Elektronik, Elektryk"
+      company:
+        en: "SATIO", Gdynia, Poland
+        de: "SATIO", Gdingen, Polen
+        pl: "SATIO", Gdynia
+#      url: http://satio.pl/
+#      projects:
+#        en: Project &rsaquo; Proprietary programs, online shops, databases, domains, service PC and consumer electronics
+#        de: Projekt &rsaquo; Proprietäre Programme, Online-Shops, Datenbanken, Domains, Service-PC und Unterhaltungselektronik
+#        pl: Projekt &rsaquo; Autorskie programy, sklepy internetowe, bazy danych, domeny, serwis PC i sprzętu RTV
+      technologie:
+#      projects: salonodnowy.com, mikrobiolog.pl, kmj.pl, inventio.pl, auto-seba.pl, ...
+      responsibilities:
+        en: "Creating web pages (and modules) based systems. The development of copyright management system and data processing Inventio;<br/> design, installation, electrical installation, wired and wireless telecommunication (GSM, LAN, WIFI)."
+        de: "Erstellen von Web-Seiten (und Module) Die Entwicklung des Urheberrechts-Management-Systems und Datenverarbeitung Inventio;<br/> Reparatur der Geräteausstattung, Auswahl und der Installation der elektrischen Ausrüstung, Alarmzentrale, GSM der, LAN, WIFI."
+        pl: "Tworzenie stron internetowych i modułów opartych o systemy Opensource; Rozwój autorskiego systemu zarządzania i przetwarzania danych Inventio;<br/> Projektowanie, montaż instalacji elektrycznych, teletechnicznych przewodowych i bezprzewodowych (GSM, LAN, WIFI)."
+      projects:
+        #name: salonodnowy.com
+        technologie:
+          en: "Technologies &rsaquo; CCTV, NVR, PHP, MySQL, Ajax, C++, Interbase, Embedded Linux, Grafikdesign, HTML, Xml, CSS, JS, JQuery, Webdesign, OpenCart, Joomla, Drupal, PrestaShop"
+          de: "Technologie &rsaquo; CCTV, NVR, PHP, MySQL, Ajax, C++, Interbase, Embedded Linux, Grafikdesign, HTML, Xml, CSS, JS, JQuery, Webdesign, OpenCart, Joomla, Drupal, PrestaShop"
+          pl: "Technologie &rsaquo; CCTV, NVR, PHP, MySQL, Ajax, C++, Interbase, Embedded Linux, Grafikdesign, HTML, Xml, CSS, JS, JQuery, Webdesign, OpenCart, Joomla, Drupal, PrestaShop"
+        responsibilities: creating website
+# INNE        
+ 
+  -
+
+    type: section
+    name:
+      en: Skills
+      de: Fähigkeiten
+      pl: Umiejętności
+  -
+    type: row-slim
+    name:
+      en: Foreign languages knowledge
+      de: Sprachkentnisse
+      pl: Znajomość języków
+    value: 
+      en: English (post-Intermediate), German (post-Intermediate), Russian (Elementary), Polish (native)
+      de: Deutsch (Mittelstufe), Englisch (Mittelstufe), Russisch (Elementar), Polnisch (Muttersprache)
+      pl: Angielski (średni), Niemiecki (średni), Rosyjski (Komunikatywny), Polski (ojczysty)
+  -
+    type: row-slim
+    name:
+      en: Programming Languages
+      de: Programming Languages
+      pl: Języki programowania
+    value: "PHP5, JAVA, Javascript, Node.js, Python, Bash, C++, Turbo Pascal, Visual Basic"    
+  -
+    type: row-slim
+    name:
+      en: Technologies
+      de: Technologie
+      pl: Standardy
+    value: "HTML, XML, JSON, YAML, CSS;"
+  -
+    type: row-slim
+    name:
+      en: Tools
+      de: Tools
+      pl: Narzędzia
+    value: "PhpStorm, Aptana, NetBeans, Eclipse; Altium (Protel), eagle; <br/> Jira, Confluence, Redmine, Mantis;<br/> Aqua Data Studio, MySQL Workbench; Photoshop, GIMP"
+  
+ 
+  -
+#    type: row-slim
+#    name:
+#      en: Operating systems
+#      de: Betriebssysteme
+#      pl: Systemy operacyjne
+#    value: Linux, Windows
+#  -
+   type: row-slim
+    name:
+      en: Frameworks
+      de: Frameworks
+      pl: Frameworki
+    value: "PHP - Zend Framework, CakePHP, Kohana; Symfony, Smarty;<BR/> JS - Prototype, jQuery, extJS, prototype; <BR/> JAVA - Spring, Hibernate, Vaadin, Vaadin Touchkit;"
+  -
+    type: row-slim
+    name:
+      en: Design Patterns
+      de: Design Patterns
+      pl: Wzorce projektowe
+    value: "OOP, MVC, HMVC, DAO, Factory, Singleton, Strategy, Composite, Decorator, Front controller, Dependency Injection, Single Responsibility"
+  -
+    type: row-slim
+    name:
+      en: Network services
+      de: Netzwerkdienste
+      pl: Usługi sieciowe
+    value:
+      en: "Build manager: (Maven, Amt, composer),<br/> Version Control System  (SVN, GIT),<br/> Databases (MySQL, MSSQL, SQLite, PostgreSQL, Oracle),<br/> Servers: Apache, nginx, Tomcat, JBOSS;"
+      de: "Build manager: (Maven, Amt, composer),<br/> Version Control Systeme (SVN, GIT),<br/> Datenbanken (MySQL, MSSQL, SQLite, PostgreSQL, Oracle),<br/> Servers: Apache, nginx, Tomcat, JBOSS;"
+      pl: "Build manager: (Maven, Amt, composer),<br/> Systemy kontroli wersji (SVN, GIT),<br/> Bazy danych (MySQL, MSSQL, SQLite, PostgreSQL, Oracle),<br/> Serwery: Apache, nginx, Tomcat, JBOSS;"
+
+  -
+
+    type: row-slim
+    name:
+      en: Hardware
+      de: Hardware
+      pl: Sprzęt
+    value: "Microcontrollers/Processors (Architecture: 8051,AVR32,X86,ARM), FPGA, <br/> Embedded systems (RPI, Marsboard, Cubieboard), mobile/network hardware, Video recording systems and alarm systems"
+
+  -
+  
+    type: row-slim
+    name:
+      en: Others
+      de: Others
+      pl: Inne
+    value:
+      en: Driving licence, cat. B
+      de: Führerschein, Klasse B
+      pl: Prawo jazdy kat. B
+  -
+    type: section
+    name:
+     en: Interests
+     de: Interessen
+     pl: Zainteresowania
+  -
+    type: row-slim
+    value:
+      en: Traveling, cooking, inline skating
+#      , Classical dance
+      de: Reisen, Kochen, Inlineskaten‎
+#      , Klassischer Tanz, Ernährung und gesunde Ernährung Kochen
+      pl: Podróżowanie, gotowanie, jazda na Rolkach
+#      , Taniec Klasyczny,
+
+#    type: section
+#    name:
+#      en: Foreign language knowledge
+#      de: Bekannte Technologien
+#      pl: Znajomość Technologii
+#  -
+#    type: row
+#    value: 2
+#      pl:
+#      P| 
+#    name:
+#      pl: Bekannte Technologien
+#Hiermit willige ich in die Verarbeitung meiner Personalangaben, die in diesem CV enthalten sind, für etwaige Stellenbesetzungsverfahren,
+#gemäß dem Personaldatenschutzgesetz vom 29. August 1997 über den Personaldatenschutz (Gesetzblatt Nr. 133 Pos. 883 ein).

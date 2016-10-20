@@ -1,0 +1,101 @@
+[
+    {
+        "name": "mustangostang/spyc",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mustangostang/spyc.git",
+            "reference": "dfd9aadc1f5224065d55b42b712c7e99a50a3f4d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mustangostang/spyc/zipball/dfd9aadc1f5224065d55b42b712c7e99a50a3f4d",
+            "reference": "dfd9aadc1f5224065d55b42b712c7e99a50a3f4d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.3.*@dev"
+        },
+        "time": "2016-05-14 08:33:02",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.5.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "Spyc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "mustangostang",
+                "email": "vlad.andersen@gmail.com"
+            }
+        ],
+        "description": "A simple YAML loader/dumper class for PHP",
+        "homepage": "https://github.com/mustangostang/spyc/",
+        "keywords": [
+            "spyc",
+            "yaml",
+            "yml"
+        ]
+    },
+    {
+        "name": "tom-sapletta-com/phunc",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tom-sapletta-com/Phunc.git",
+            "reference": "18cb32fd250c22c8990404ffdbecd1be0e62b62f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tom-sapletta-com/Phunc/zipball/18cb32fd250c22c8990404ffdbecd1be0e62b62f",
+            "reference": "18cb32fd250c22c8990404ffdbecd1be0e62b62f",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3.3 || ^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.5.*"
+        },
+        "time": "2016-10-20 18:39:19",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Phunc\\": "src/",
+                "Config\\": "config/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tomasz Sapletta",
+                "email": "tom@sapletta.com"
+            }
+        ],
+        "description": "Functional Environment for PHP",
+        "homepage": "http://phunc.de",
+        "keywords": [
+            "functional programming",
+            "strong typing"
+        ]
+    }
+]

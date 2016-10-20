@@ -1,0 +1,24 @@
+template: 'Public/cv/template/'
+data: Private/Data/cv/
+lib: Community/
+title: Tomasz Sapletta
+description: stronka1
+keywords: cv, lm, inne
+path_log_error: 'Private/Data/log/error.txt'
+path_log_info: 'Private/Data/log/info.txt'
+folder_data: '/Private/Data/cv/'
+path_data: '/Private/Data/cv/'
+url_data: 'cv.tom.sapletta.com/'
+url_data_localhost: 'pluton/cv.tom.sapletta.com/'
+path: 'path.yaml'
+page: 'page.yaml'
+cv: 'cv.yaml'
+lang: 'en'
+languages:
+  pl: 'PL'
+  en: 'EN'
+  de: 'DE'
+lang_default: 'en'
+path_lib: '../../Community/'
+localhost_name: 'localhost'
+#cache_dir: '/Private/Cache/'
