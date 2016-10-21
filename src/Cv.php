@@ -9,7 +9,6 @@
 namespace Resume;
 
 use Phunc\UserLanguage;
-use Phunc\docTreeRender;
 
 /**
  * Class Cv

@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mustangostang/spyc.git",
-                "reference": "dfd9aadc1f5224065d55b42b712c7e99a50a3f4d"
+                "reference": "022532641d61d383fd3ae666982bd46e61e5915e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/dfd9aadc1f5224065d55b42b712c7e99a50a3f4d",
-                "reference": "dfd9aadc1f5224065d55b42b712c7e99a50a3f4d",
+                "url": "https://api.github.com/repos/mustangostang/spyc/zipball/022532641d61d383fd3ae666982bd46e61e5915e",
+                "reference": "022532641d61d383fd3ae666982bd46e61e5915e",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "yaml",
                 "yml"
             ],
-            "time": "2016-05-14 08:33:02"
+            "time": "2016-10-21 00:03:34"
         },
         {
             "name": "tom-sapletta-com/phunc",
@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tom-sapletta-com/Phunc.git",
-                "reference": "18cb32fd250c22c8990404ffdbecd1be0e62b62f"
+                "reference": "18bb939fb790d34de3468b4cd2cc90e6a639b565"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tom-sapletta-com/Phunc/zipball/18cb32fd250c22c8990404ffdbecd1be0e62b62f",
-                "reference": "18cb32fd250c22c8990404ffdbecd1be0e62b62f",
+                "url": "https://api.github.com/repos/tom-sapletta-com/Phunc/zipball/18bb939fb790d34de3468b4cd2cc90e6a639b565",
+                "reference": "18bb939fb790d34de3468b4cd2cc90e6a639b565",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
                 "functional programming",
                 "strong typing"
             ],
-            "time": "2016-10-20 18:39:19"
+            "time": "2016-10-21 18:16:58"
         }
     ],
     "packages-dev": [],
