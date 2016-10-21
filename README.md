@@ -3,6 +3,8 @@ Resume based on Phunc library
 
 Simple example how to use Phunc in practic for rendering Resume
 
+![alt tag](https://tom.sapletta.com/screen/chrome_2016-10-21_19-05-23.png)
+
 ## Install
 composer require tom-sapletta-com/resume
 
