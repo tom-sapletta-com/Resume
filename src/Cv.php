@@ -24,7 +24,6 @@ class Cv
      */
     public function __construct($data)
     {
-//        $languages = new ConfigLanguages(['pl' => 'Polski', 'en' => 'English', 'de' => 'Deutsch', 'ru' => 'Russian']);
         // Header
         $template_path = __DIR__ . DIRECTORY_SEPARATOR .
             '..' . DIRECTORY_SEPARATOR .
