@@ -7,6 +7,6 @@ require __DIR__ . '/vendor/autoload.php';
 
 $data = [];
 $data['lang'] = 'en';
-new App\Cv($data);
+new \Resume\Cv($data);
 
 #php test.php

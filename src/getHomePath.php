@@ -28,25 +28,15 @@ class getHomePath implements HasString, ValueText
      */
     public function __construct($default_lang = 'en')
     {
-
-//        $localhost_name = (string) new getConfigValue('localhost_name');
-//        $project_domain = (string) new getConfigValue('project_domain');
-//        $path = (string) new getConfigValue('project_domain');
-//        var_dump($_SERVER['HTTP_HOST']);
-//die;
         $url = (string)new getUrl($_SERVER);
-        $path = (string)new getDomain($_SERVER);
-
-//            $this->value = $localhost_name . '/' . $project_domain;
-        $path = $url . '/' . $path;
-
         $is_localhost = new IsLocalhost($_SERVER);
+
         // cut last part: /cv.php
-        if(!$is_localhost->value()){
-            $pathi = pathinfo($path);
-            $path = $pathi['dirname'];
+        if (!$is_localhost->value()) {
+            $pathi = pathinfo($url);
+            $url = $pathi['dirname'];
         }
-        $this->value = $path;
+        $this->value = $url;
     }
 
 

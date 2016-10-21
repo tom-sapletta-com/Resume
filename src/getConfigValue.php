@@ -23,7 +23,6 @@ class getConfigValue implements ValueText, HasString
 
     protected $config = [];
     protected $name = '';
-
     private $value = '';
 
     /**
@@ -33,9 +32,8 @@ class getConfigValue implements ValueText, HasString
      */
     public function __construct($name)
     {
-//        $config_path = CONFIG_APP_PATH;
         // get file from path on local filesystem
-        $config_path  = __DIR__ . DIRECTORY_SEPARATOR .
+        $config_path = __DIR__ . DIRECTORY_SEPARATOR .
             '..' . DIRECTORY_SEPARATOR .
             'Private' . DIRECTORY_SEPARATOR .
             'Data' . DIRECTORY_SEPARATOR .
@@ -47,26 +45,19 @@ class getConfigValue implements ValueText, HasString
             return;
 
         }
-//        $config = Spyc::YAMLLoad($config_path);
-        $config = spyc_load_file($config_path);
-
-//        var_dump($config);
-
+        $config = \Spyc::YAMLLoad($config_path);
 
         if (empty($config)) {
 //            throw new Exception(__CLASS__ . ' Empty $config');
             return;
-
         }
 
         $this->config = $config;
         $this->name = $name;
 
-
         if (empty($name)) {
 //            throw new Exception(__CLASS__ . ' Empty $name');
             return;
-
         }
 
         if (empty($this->config[$name])) {
@@ -82,9 +73,6 @@ class getConfigValue implements ValueText, HasString
      */
     public function config()
     {
-//        if(empty($name)) {
-//            return $this->value;
-//        }
         return $this->config;
     }
 
