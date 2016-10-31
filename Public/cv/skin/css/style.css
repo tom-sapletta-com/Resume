@@ -272,3 +272,12 @@ h2{
     visibility: hidden;
     height: 0;
 }
+
+/* MENU */
+.menu a:hover{
+    color: #555;
+}
+.menu a.active{
+    color: #449;
+    font-weight: 600;
+}
