@@ -12,4 +12,6 @@ composer require tom-sapletta-com/resume
 
 using items for list of config:
  + value / name / type (current server path/)
+ + using library PDF generator
+ 
 
