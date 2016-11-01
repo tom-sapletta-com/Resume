@@ -15,7 +15,8 @@
     "require": {
         "php": "^5.3.3 || ^7.0",
         "mustangostang/spyc": "^0.5.1",
-        "tom-sapletta-com/phunc": "*"
+        "tom-sapletta-com/phunc": "*",
+        "codeception/codeception": "*"
     },
     "autoload": {
         "psr-4": {

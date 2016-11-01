@@ -7,6 +7,18 @@ require __DIR__ . '/vendor/autoload.php';
 
 $data = [];
 $data['lang'] = 'en';
-new \Resume\Cv($data);
+//new \Resume\Cv($data);
 
 #php test.php
+
+$I = new FunctionalTester($scenario);
+$I->wantTo('create wiki page');
+$I->amOnPage('/');
+$I->click('Pages');
+$I->click('New');
+$I->see('New Page');
+$I->submitForm('form#new_page', ['title' => 'Tree of Life Movie Review','body' => "Next time don't let Hollywood create art-house!"]);
+$I->see('page created'); // notice generated
+$I->see('Tree of Life Movie Review','h1'); // head of page of is our title
+$I->seeInCurrentUrl('pages/tree-of-life-movie-review'); // slug is generated
+$I->seeInDatabase('pages', ['title' => 'Tree of Life Movie Review']); // data is stored in database
