@@ -16,7 +16,8 @@
         "php": "^5.3.3 || ^7.0",
         "mustangostang/spyc": "^0.5.1",
         "tom-sapletta-com/phunc": "*",
-        "codeception/codeception": "*"
+        "codeception/codeception": "*",
+        "tom-sapletta-com/unittest-generator": "*"
     },
     "autoload": {
         "psr-4": {
