@@ -1,6 +1,6 @@
 Resume based on Phunc library
 =====
-[![Build Status](https://travis-ci.org/tom-sapletta-com/resume.svg?branch=master)](https://travis-ci.org)
+[![Build Status](https://travis-ci.org/tom-sapletta-com/Resume.svg?branch=master)](https://travis-ci.org)
 
 Simple example how to use Phunc in practic for rendering Resume
 
