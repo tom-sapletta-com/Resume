@@ -13,8 +13,8 @@ $data['lang'] = 'en';
 
 
 $folder_project = 'src';
-$folder_test = 'tests';
-$namespace_project = 'Phunc';
+$folder_test = 'tests/unit';
+$namespace_project = 'Resume';
 $project_author = 'tom-sapletta-com';
 
 $needle = ['interface', 'abstract'];
