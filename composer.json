@@ -3,8 +3,8 @@
     "description": "Implementation of document, resume, based on Phunc",
     "type": "library",
     "license": "MIT",
-    "keywords": ["functional programming","strong typing"],
-    "homepage": "http://phunc.de",
+    "keywords": ["resume","cv"],
+    "homepage": "http://cv.tom.sapletta.com",
     "authors": [
         {
             "name": "Tomasz Sapletta",
@@ -16,13 +16,14 @@
         "php": "^5.3.3 || ^7.0",
         "mustangostang/spyc": "^0.5.1",
         "tom-sapletta-com/phunc": "*",
-        "codeception/codeception": "*",
         "tom-sapletta-com/unittest-generator": "*"
     },
     "autoload": {
         "psr-4": {
             "Resume\\": "src/"
         }
+    },
+    "require-dev": {
+        "codeception/base": "*"
     }
-
 }
