@@ -6,7 +6,7 @@
  * File created by: tom-sapletta-com, on 2016-11-15 14:53:56
  */
 
-require_once __DIR__ . '\..\..\vendor' . '\autoload.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
 use PHPUnit\Framework\TestCase;
 use Resume\LoadFileYaml;
 
