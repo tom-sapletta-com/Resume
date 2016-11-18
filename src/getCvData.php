@@ -24,16 +24,17 @@ class getCvData
 
     /**
      * loading config when use config object
+     *
+     * @param $file_yaml
      */
-    public function __construct()
+    public function __construct(LoadFileYaml $file_yaml, $url_data)
     {
-        $url_data = (string)new getCvUrl($_SERVER);
-
         try {
 //            $url_data = (string)new getHomePath() . (string)new CacheDir();
             $cache_dir = (string)new CacheDir();
             $url_data = str_replace('/', DIRECTORY_SEPARATOR, $url_data);
-            $cv_file = (string)new getConfigValue('cv');
+
+            $cv_file = (string)new getConfigValue('cv', $file_yaml);
 
             $pathfile = (string)new getPathToDownloadedFile($cv_file, $cache_dir, $url_data);
 

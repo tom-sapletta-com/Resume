@@ -10,70 +10,52 @@
 
 namespace Resume;
 
-//use phunc\core;
 use Phunc\HasString;
 use Phunc\ValueText;
+use Phunc\Items;
+use Exception;
+use Resume\LoadFileYaml;
 
 /**
  * Class getConfigValue
  * @package App
  */
-class getConfigValue implements ValueText, HasString
+class getConfigValue implements ValueText, HasString, Items
 {
 
-    protected $config = [];
+    protected $items;
     protected $name = '';
     private $value = '';
 
     /**
-     * getConfigValue constructor.
+     * get file from path on local filesystem
+     *
      * @param $name
+     * @param LoadFileYaml $file_yaml
      * @throws Exception
      */
-    public function __construct($name)
+    public function __construct($name, LoadFileYaml $file_yaml)
     {
-        // get file from path on local filesystem
-        $config_path = __DIR__ . DIRECTORY_SEPARATOR .
-            '..' . DIRECTORY_SEPARATOR .
-            'Private' . DIRECTORY_SEPARATOR .
-            'Data' . DIRECTORY_SEPARATOR .
-            'cv' . DIRECTORY_SEPARATOR .
-            'app.yaml';
-
-        if (empty($config_path)) {
-//            throw new Exception(__CLASS__ . ' Empty $config');
-            return;
-
-        }
-        $config = \Spyc::YAMLLoad($config_path);
-
-        if (empty($config)) {
-//            throw new Exception(__CLASS__ . ' Empty $config');
-            return;
-        }
-
-        $this->config = $config;
+        $this->items = $file_yaml->items();
         $this->name = $name;
 
         if (empty($name)) {
-//            throw new Exception(__CLASS__ . ' Empty $name');
-            return;
+            throw new Exception(__CLASS__ . ' Empty $name');
         }
 
-        if (empty($this->config[$name])) {
-//            throw new Exception(__CLASS__ . ' Config Name not exist');
-            return;
+        if (empty($this->items[$name])) {
+            throw new Exception(__CLASS__ . ' Config Name not exist');
         }
 
-        $this->value = $this->config[$name];
+        $this->value = $this->items[$name];
     }
 
     /**
-     * @return array
+     * @return LoadFileYaml
      */
-    public function config()
+    public function items()
     {
-        return $this->config;
+        return $this->items;
     }
 
     /**

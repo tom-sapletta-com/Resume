@@ -9,6 +9,7 @@
 namespace Resume;
 
 use Phunc\UserLanguage;
+use Phunc\IsLocalhost;
 
 /**
  * Class Cv
@@ -30,6 +31,13 @@ class Cv
             'cv' . DIRECTORY_SEPARATOR .
             'template' . DIRECTORY_SEPARATOR;
 
+        $config_path = __DIR__ . DIRECTORY_SEPARATOR .
+            '..' . DIRECTORY_SEPARATOR .
+            'Private' . DIRECTORY_SEPARATOR .
+            'Data' . DIRECTORY_SEPARATOR .
+            'cv' . DIRECTORY_SEPARATOR .
+            'app.yaml';
+
         include($template_path . 'index_header.php');
         include($template_path . 'index_header_menu.php');
         include($template_path . 'index_content.php');
@@ -37,7 +45,13 @@ class Cv
         // get language from variable (path) or set default from config
         $language = new UserLanguage($data);
 
-        $cv = new getCvData();
+        $file_yaml = new LoadFileYaml($config_path);
+
+        $is_localhost = new IsLocalhost($_SERVER);
+
+        $url_data = (string)new getCvUrl($is_localhost, $file_yaml);
+
+        $cv = new getCvData($file_yaml, $url_data);
         $render = new docTreeRender($language, $cv->value());
         echo $render->value();
 

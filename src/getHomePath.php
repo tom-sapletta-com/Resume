@@ -26,11 +26,8 @@ class getHomePath implements HasString, ValueText
      * get current language
      * @param $default_lang
      */
-    public function __construct($default_lang = 'en')
+    public function __construct($default_lang = 'en', $is_localhost, $url)
     {
-        $url = (string)new getUrl($_SERVER);
-        $is_localhost = new IsLocalhost($_SERVER);
-
         // cut last part: /cv.php
         if (!$is_localhost->value()) {
             $pathi = pathinfo($url);

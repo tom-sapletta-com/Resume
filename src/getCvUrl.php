@@ -13,6 +13,8 @@ use Phunc\IsLocalhost;
 use Phunc\addDebugError;
 use Phunc\getPathToDownloadedFile;
 use Phunc\PrintLog;
+use Resume\getConfigValue;
+use Resume\LoadFileYaml;
 
 /**
  * Class getCvData
@@ -24,14 +26,17 @@ class getCvUrl
 
     /**
      * loading config when use config object
+     *
+     * @param IsLocalhost $is_localhost
+     * @param LoadFileYaml $file_yaml
      */
-    public function __construct($server_array)
+    public function __construct(IsLocalhost $is_localhost, LoadFileYaml $file_yaml)
     {
-        $is_localhost = new IsLocalhost($server_array);
+
         if ($is_localhost->value()) {
-            $url_data = (string)new getConfigValue('url_data_localhost');
+            $url_data = (string)new getConfigValue('url_data_localhost', $file_yaml);
         } else {
-            $url_data = (string)new getConfigValue('url_data');
+            $url_data = (string)new getConfigValue('url_data', $file_yaml);
         }
         $this->value = $url_data;
     }
