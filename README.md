@@ -15,3 +15,4 @@ using items for list of config:
  + using library PDF generator
  
 
+It is bit similary solution as https://jsonresume.org/schema/
